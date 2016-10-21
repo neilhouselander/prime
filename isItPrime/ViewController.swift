@@ -45,10 +45,10 @@ class ViewController: UIViewController {
                 i += 1
             }
             if isPrime {
-                wellIsItLabel.text = "\(userTextFieldBox.text!) is a prime number!"
+                wellIsItLabel.text = "\(userTextFieldBox.text!) is a prime number 😀"
             }
             else {
-                wellIsItLabel.text = "\(userTextFieldBox.text!) is not a prime number (sad)"
+                wellIsItLabel.text = "\(userTextFieldBox.text!) is not a prime number ☹️"
             }
         }
         else{

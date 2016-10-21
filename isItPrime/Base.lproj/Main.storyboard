@@ -21,19 +21,10 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is It Prime?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DqF-BQ-UDu">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="142" id="PrC-iF-mo4"/>
-                                    <constraint firstAttribute="height" constant="50" id="oaY-fr-3JT"/>
+                                    <constraint firstAttribute="height" constant="50" id="auw-8e-7lm"/>
+                                    <constraint firstAttribute="width" constant="142" id="eu9-uP-kyN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a positive whole number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnX-Eu-BHO">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="4XO-JE-SuZ"/>
-                                    <constraint firstAttribute="width" constant="246" id="smQ-a0-UZH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -45,8 +36,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HPa-ts-wW3">
                                 <color key="backgroundColor" red="0.39325046539306641" green="0.69670408964157104" blue="0.81398624181747437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="85" id="wAE-R8-XSD"/>
-                                    <constraint firstAttribute="height" constant="46" id="xIE-Cc-0oS"/>
+                                    <constraint firstAttribute="height" constant="46" id="7Io-OA-p4v"/>
+                                    <constraint firstAttribute="width" constant="85" id="eCP-BE-Mfc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Is it Prime?">
@@ -56,9 +47,10 @@
                                     <action selector="isItPrimeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DF7-qu-d2p"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prime" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRN-6g-S8F">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRN-6g-S8F">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="118" id="PVO-Tq-XPZ"/>
+                                    <constraint firstAttribute="height" constant="56" id="b0Z-pk-MiZ"/>
+                                    <constraint firstAttribute="width" constant="343" id="pY9-l0-jWq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="21"/>
                                 <nil key="textColor"/>
@@ -67,18 +59,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="KRN-6g-S8F" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="6tm-PI-uCL"/>
-                            <constraint firstItem="LbU-BU-uTA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7ce-y7-TPZ"/>
-                            <constraint firstItem="KRN-6g-S8F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Eh7-Gh-Vrm"/>
-                            <constraint firstItem="KRN-6g-S8F" firstAttribute="top" secondItem="HPa-ts-wW3" secondAttribute="bottom" constant="21" id="KRk-7f-L9M"/>
-                            <constraint firstItem="mnX-Eu-BHO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bcc-5D-h8b"/>
-                            <constraint firstItem="mnX-Eu-BHO" firstAttribute="top" secondItem="DqF-BQ-UDu" secondAttribute="bottom" constant="8" id="eir-5D-8eD"/>
-                            <constraint firstItem="LbU-BU-uTA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="exP-vh-Omq"/>
-                            <constraint firstItem="HPa-ts-wW3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="goq-Rq-rVn"/>
-                            <constraint firstItem="DqF-BQ-UDu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iCA-dw-H0b"/>
-                            <constraint firstItem="LbU-BU-uTA" firstAttribute="top" secondItem="mnX-Eu-BHO" secondAttribute="bottom" constant="31" id="jKI-Zv-bD3"/>
-                            <constraint firstItem="HPa-ts-wW3" firstAttribute="top" secondItem="LbU-BU-uTA" secondAttribute="bottom" constant="25" id="kq7-oV-GGT"/>
-                            <constraint firstItem="DqF-BQ-UDu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xgS-az-2Lv"/>
+                            <constraint firstItem="DqF-BQ-UDu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EQr-jb-VSC"/>
+                            <constraint firstItem="LbU-BU-uTA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Nvz-TV-zvQ"/>
+                            <constraint firstItem="LbU-BU-uTA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OUW-RO-Gbp"/>
+                            <constraint firstItem="KRN-6g-S8F" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="PFl-DY-iZ9"/>
+                            <constraint firstItem="HPa-ts-wW3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XVB-e3-3NR"/>
+                            <constraint firstItem="DqF-BQ-UDu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="YrY-os-Y9u"/>
+                            <constraint firstItem="HPa-ts-wW3" firstAttribute="top" secondItem="LbU-BU-uTA" secondAttribute="bottom" constant="25" id="fhe-Xd-ZsV"/>
+                            <constraint firstItem="LbU-BU-uTA" firstAttribute="top" secondItem="KRN-6g-S8F" secondAttribute="bottom" constant="8" id="rFM-Pt-DvT"/>
+                            <constraint firstItem="KRN-6g-S8F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zMu-ke-RAO"/>
                         </constraints>
                     </view>
                     <connections>
@@ -88,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-834" y="-99"/>
+            <point key="canvasLocation" x="-834.39999999999998" y="-99.400299850074973"/>
         </scene>
     </scenes>
 </document>
